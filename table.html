@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<style>
+     table{
+        width: 70%;
+     }
+     table, tr, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5.2px;
+        font-family: 'Times New Roman', Times, serif;
+     }
+     .join{
+        background-color: rgb(133, 239, 204);
+     }
+     .cancelled{
+        background-color: rgb(240, 158, 158);
+     }
+     .K{
+        background-color: rgb(211, 188, 233);
+     }
+     .M{
+        background-color: rgb(176, 176, 239);
+     }
+     .P{
+        background-color: rgb(219, 242, 107);
+     }
+     .O{
+        border-top: 2px dashed;
+     }
+     
+</style>
+<body>
+    <table>
+        <thead class="M">
+            <tr>
+                <th rowspan="2">Name</th>
+                <th rowspan="2">ID</th>
+                <th colspan="2">Memership Dates</th>
+                <th rowspan="2">Balance
+                </th>
+            </tr>
+            <tr>
+                <th class="join">Joined</th>
+                <th class="cancelled">Cancelled</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="K">Margaret Nguyen</th>
+                <td>427311</td>
+                <td>June3, 2010</td>
+                <td>n/a</td>
+                <td>0.00</td>
+            </tr>
+            <tr class="P">
+                <th class="K">Edvard Galinski</th>
+                <td>533175</td>
+                <td>January 13, 2011</td>
+                <td>April 8, 2017</td>
+                <td>37.00</td>
+            </tr>
+            <tr>
+                <th class="K">Hoshi Nakamura</th>
+                <td>601942</td> 
+                <td>July 23, 2012</td>
+                <td>n/a</td>
+                <td>15.00</td>
+            </tr>
+            <tfoot class="M">
+          <tr>
+            <th colspan="4" style="border-top: 2px dashed; text-align: end;">Total balance</th>
+            <th class="O">52.00</th>
+          </tr>
+
+
+            </tfoot>
+
+
+        </tbody>
+           
+    </table>
+</body>
+</html>
